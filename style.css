@@ -1,0 +1,106 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F5F7FA;
+  color: #333333;
+}
+
+#Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 50px 200px; 
+  background-color: #fff;
+  border-radius: 10px; 
+  padding: 100px 50px;
+  border: 1px solid #5A6C8E;
+}
+
+.completeBtn{
+  background-color: #5A6C8E;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.completeBtn:hover{
+  background-color:#F26D6D;
+}
+
+.deleteBtn{
+  background-color: #F26D6D;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.deleteBtn:hover{
+  background-color: #A6B1E1;
+}
+
+.empty{
+  margin: 10px 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.todo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin:5px 20px;
+}
+
+input{
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+button{
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  background-color: #5A6C8E;
+  color: #fff;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #A6B1E1;
+}
+
+@media screen and (max-width: 767px) {
+  #Container{
+    margin: 100px 0px;
+  }
+  
+  .completeBtn, .deleteBtn, button {
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 12px;
+
+  }
+
+  input{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #Container{
+   margin: 100px 50px;
+
+  }
+  
+}

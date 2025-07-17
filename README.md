@@ -3,7 +3,7 @@
 A simple yet functional To-Do List built website with HTML, CSS, and JavaScript, designed to help you stay organized and productive every day.
 
 ## 🚀 Live Preview
-🔗 [Click here to try it out](a-to-do-list-gamma.vercel.app)
+🔗 [a-to-do-list-gamma.vercel.app)
 
 ## 📌 Features
 

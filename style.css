@@ -7,18 +7,27 @@
 body{
   background-color: #F5F7FA;
   color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 #Container{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
   height: 100vh; 
-  margin: 50px 200px; 
+  margin: 200px 200px; 
   background-color: #fff;
   border-radius: 10px; 
   padding: 100px 50px;
+  border: 1px solid #5A6C8E; */
+  background-color: #fff;
+  padding: 100px 50px;
+  border-radius: 10px;
   border: 1px solid #5A6C8E;
 }
 
@@ -82,7 +91,7 @@ button:hover{
 
 @media screen and (max-width: 767px) {
   #Container{
-    margin: 100px 0px;
+    padding: 100px 20px;
   }
   
   .completeBtn, .deleteBtn, button {
